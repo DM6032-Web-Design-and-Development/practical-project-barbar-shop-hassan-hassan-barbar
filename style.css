@@ -77,22 +77,6 @@ font-family: Arial;
 background: #00A099;
 }
 
-/* Navbar */
-.navbar {
-width: 100%;
-background: #018A8E;
-padding: 15px;
-display: flex;
-justify-content: center;
-gap: 40px;
-}
-
-.navbar a {
-color: white;
-text-decoration: none;
-font-size: 18px;
-font-weight: bold;
-}
 
 .title {
 text-align: center;
