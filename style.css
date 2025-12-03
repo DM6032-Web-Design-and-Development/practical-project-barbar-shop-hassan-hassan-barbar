@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0ea6a6;
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  background: white;
+  padding: 20px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  font-size: 30px;
+  color: #008080;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navbar li.active {
+  background: #008080;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 50px;
+}
+
+.hero {
+  padding: 60px 20px;
+  background-color: #0ea6a6;
+  background-repeat: repeat;
+  background-size: 350px;
+  text-align: center;
+}
+
+.title-img {
+  width: 55%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto 30px auto;
+}
+
+.book-btn {
+  background: white;
+  color: #008080;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 40px;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.description {
+  margin-top: 40px;
+  font-size: 18px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
