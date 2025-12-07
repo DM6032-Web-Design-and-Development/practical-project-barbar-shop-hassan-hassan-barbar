@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html" class="active">Book Form</a></li>
+      </ul>
+    </nav>
+
+    <section class="booking-section">
+      <h1 class="booking-title">Booking Form</h1>
+
+      <form id="bookingForm">
+        <div class="booking-container">
+
+          <div>
+            <h2>Name</h2>
+            <input type="text" name="name" required>
+
+            <h2>Mobile Number</h2>
+            <input type="text" name="mobile" placeholder="ex: 39993999" required>
+          </div>
+
+          <div>
+            <h2>Date</h2>
+            <input type="text" name="date" placeholder="Day/Month/Year | Time 19:30" required>
+
+            <h2>Service</h2>
+            <input type="text" name="service" placeholder="ex: Hair cut &amp; beard trim" required>
+          </div>
+
+          <div class="notes-full">
+            <h2>Notes</h2>
+            <textarea name="notes"></textarea>
+          </div>
+
+          <div class="submit-btn">
+            <button type="submit" class="booking-submit-btn">Submit</button>
+          </div>
+
+        </div>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
