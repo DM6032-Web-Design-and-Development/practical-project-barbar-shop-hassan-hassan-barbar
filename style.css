@@ -45,7 +45,7 @@ body {
   text-align: center;
 }
  .title-img {
-width: 65%;
+width: 100%;
   max-width: 700px;
   display: block;
   margin: 0 auto 30px auto;
@@ -74,4 +74,67 @@ width: 65%;
   margin-right: auto;
   line-height: 1.7;
   font-weight: 500;
+}
+
+.products-section {
+  background: #00A099;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+}
+
+.products-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+
+.product-card {
+  width: 260px;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+  height: 430px;
+  color: black;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+  background: white;
+}
+
+.product-card h3 {
+  font-size: 16px;
+  margin: 15px 0;
+  height: 55px;
+  overflow: hidden;
+}
+
+.product-btn {
+  width: 100%;
+  padding: 12px;
+  background: black;
+  color: white;
+  border: none;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.product-btn:hover {
+  background: #333;
 }
