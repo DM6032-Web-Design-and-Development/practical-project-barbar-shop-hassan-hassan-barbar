@@ -52,8 +52,8 @@ body {
   align-items: center;
 }
  .title-img {
-width: 45%;
-  max-width: 500px;
+width: 100%;
+  max-width: 800px;
   display: block;
   margin: 0 auto 30px auto;
 }
