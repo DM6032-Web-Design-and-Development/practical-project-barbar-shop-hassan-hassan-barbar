@@ -11,6 +11,7 @@ body {
   padding: 18px 0;
   border-bottom: 3px solid #008080;
 }
+
 .navbar ul {
   list-style: none;
   display: flex;
@@ -19,10 +20,12 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .navbar li {
   font-size: 28px;
   font-weight: 600;
 }
+
 .navbar a {
   text-decoration: none;
   color: #008080;
@@ -163,7 +166,7 @@ width: 55%;
   background-position: center;  
   background-repeat: no-repeat; 
 }
-background-image: url("services.png");
+
 
 .booking-section {
   background-color: #00A099;
