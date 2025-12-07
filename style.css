@@ -250,3 +250,80 @@ width: 100%;
   align-items: center;
   font-size: 24px;
 }
+
+
+.booking-section {
+  background-color: #00A099;
+  min-height: 70vh;
+  padding: 40px 20px 60px;
+  color: white;
+  text-align: center;
+}
+
+.booking-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.booking-container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  text-align: left;
+}
+
+.booking-container h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.booking-container input,
+.booking-container textarea {
+  width: 90%;
+  padding: 15px;
+  border: 3px solid black;
+  border-radius: 5px;
+  font-size: 18px;
+  color: black;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.booking-container textarea {
+  height: 100px;
+}
+
+.notes-full {
+  grid-column: span 2;
+  text-align: center;
+}
+
+.notes-full textarea {
+  width: 70%;
+}
+
+.submit-btn {
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.booking-submit-btn {
+  background-color: white;
+  color: #00A099;
+  font-size: 28px;
+  padding: 15px 50px;
+  border-radius: 50px;
+  border: 3px solid black;
+  cursor: pointer;
+  font-family: Georgia, serif;
+}
+
+.booking-submit-btn:hover {
+  opacity: 0.9;
+}
+
