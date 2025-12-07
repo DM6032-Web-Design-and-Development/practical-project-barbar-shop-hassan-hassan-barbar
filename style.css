@@ -38,18 +38,24 @@ body {
   padding-bottom: 5px;
 }
 .hero {
-  padding: 60px 20px;
+  width: 100%;
+  min-height: 500px;   
   background-color: #0ea6a6;
   background-repeat: repeat;
   background-size: 350px;
   text-align: center;
+  padding-top: 50px;     
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
  .title-img {
-width: 100%;
-  max-width: 700px;
+width: 45%;
+  max-width: 500px;
   display: block;
   margin: 0 auto 30px auto;
-  filter: drop-shadow(3px 5px 4px rgba(0,0,0,0.3));
 }
 
 
