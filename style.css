@@ -149,18 +149,25 @@ body {
 }
 
 
-.services-page {
+services-page {
   margin: 0;
   padding: 0;
 }
 
+
 .services-full {
   width: 100%;
-  height: calc(100vh - 70px); /* تقريباً ارتفاع الشاشة ناقص النافبار */
-  background-image: url("services-banner.png"); /* غيّري الاسم لو صورتك غير */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #00A099; 
+  display: flex;
+  justify-content: center;
+}
+
+
+.services-img {
+  width: 100%;
+  max-width: 1200px;   
+  height: auto;
+  display: block;
 }
 
 
