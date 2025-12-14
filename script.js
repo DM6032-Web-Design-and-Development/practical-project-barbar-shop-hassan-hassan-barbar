@@ -12,6 +12,6 @@ const message = document.getElementById("formMessage");
 
 form.addEventListener("submit", function () {
   message.style.display = "block";
-  message.textContent = "✅ تم استلام طلبك بنجاح!";
+  message.textContent = "Your Order Compeleted!";
 });
 
