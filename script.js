@@ -6,12 +6,12 @@ function order(productName) {
   window.open(link, "_blank");
 }
 
-const bookingForm = document.getElementById("bookingForm");
-if (bookingForm) {
-  bookingForm.addEventListener("submit", function (event) {
-    event.preventDefault();
 
-    console.log("Booking form submitted", new FormData(bookingForm));
-  });
-}
+const form = document.getElementById("bookingForm");
+const message = document.getElementById("formMessage");
+
+form.addEventListener("submit", function () {
+  message.style.display = "block";
+  message.textContent = "✅ تم استلام طلبك بنجاح!";
+});
 
